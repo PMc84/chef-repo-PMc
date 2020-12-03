@@ -76,14 +76,28 @@
         "noquery": false
       },
       "use_cmos": false
+    },
+    "lamp_stack": {
+      "sites": {
+        "example.com": {
+          "port": 80,
+          "servername": "example.com",
+          "serveradmin": "webmaster@example.com"
+        },
+        "example.org": {
+          "port": 80,
+          "servername": "example.org",
+          "serveradmin": "webmaster@example.org"
+        }
+      }
     }
   },
   "automatic": {
     "memory": {
       "swap": {
-        "cached": "780kB",
+        "cached": "1020kB",
         "total": "1808380kB",
-        "free": "1803744kB"
+        "free": "1802976kB"
       },
       "hugepages": {
         "total": "0",
@@ -96,26 +110,26 @@
         "2M": "933888kB"
       },
       "total": "1004876kB",
-      "free": "183644kB",
-      "available": "589752kB",
-      "buffers": "81448kB",
-      "cached": "426356kB",
-      "active": "422820kB",
-      "inactive": "227132kB",
-      "dirty": "184kB",
+      "free": "232400kB",
+      "available": "612944kB",
+      "buffers": "58744kB",
+      "cached": "416820kB",
+      "active": "386140kB",
+      "inactive": "219468kB",
+      "dirty": "256kB",
       "writeback": "0kB",
-      "anon_pages": "160224kB",
-      "mapped": "78792kB",
-      "slab": "115256kB",
-      "slab_reclaimable": "67840kB",
-      "slab_unreclaim": "47416kB",
-      "page_tables": "2524kB",
+      "anon_pages": "147908kB",
+      "mapped": "71680kB",
+      "slab": "109788kB",
+      "slab_reclaimable": "62136kB",
+      "slab_unreclaim": "47652kB",
+      "page_tables": "2712kB",
       "nfs_unstable": "0kB",
       "bounce": "0kB",
       "commit_limit": "2310816kB",
-      "committed_as": "746296kB",
+      "committed_as": "1111512kB",
       "vmalloc_total": "34359738367kB",
-      "vmalloc_used": "28420kB",
+      "vmalloc_used": "29084kB",
       "vmalloc_chunk": "0kB",
       "hugepage_size": "2048kB",
       "hugetlb": "0kB"
@@ -259,16 +273,16 @@
           "lo": {
             "tx": {
               "queuelen": "1000",
-              "bytes": "17163",
-              "packets": "178",
+              "bytes": "20267",
+              "packets": "208",
               "errors": "0",
               "drop": "0",
               "carrier": "0",
               "collisions": "0"
             },
             "rx": {
-              "bytes": "17163",
-              "packets": "178",
+              "bytes": "20267",
+              "packets": "208",
               "errors": "0",
               "drop": "0",
               "overrun": "0"
@@ -277,16 +291,16 @@
           "enp0s3": {
             "tx": {
               "queuelen": "1000",
-              "bytes": "2915134",
-              "packets": "46534",
+              "bytes": "3034029",
+              "packets": "48113",
               "errors": "0",
               "drop": "0",
               "carrier": "0",
               "collisions": "0"
             },
             "rx": {
-              "bytes": "171875350",
-              "packets": "115654",
+              "bytes": "174923491",
+              "packets": "118025",
               "errors": "0",
               "drop": "0",
               "overrun": "0"
@@ -830,7 +844,7 @@
       "ULONG_MAX": 18446744073709551615,
       "USHRT_MAX": 65535,
       "WORD_BIT": 32,
-      "_AVPHYS_PAGES": 44775,
+      "_AVPHYS_PAGES": 57342,
       "_NPROCESSORS_CONF": 1,
       "_NPROCESSORS_ONLN": 1,
       "_PHYS_PAGES": 251219,
@@ -5534,10 +5548,10 @@
         "arch": "amd64"
       }
     },
-    "uptime_seconds": 4811,
-    "uptime": "1 hours 20 minutes 11 seconds",
-    "idletime_seconds": 4515,
-    "idletime": "1 hours 15 minutes 15 seconds",
+    "uptime_seconds": 14885,
+    "uptime": "4 hours 08 minutes 05 seconds",
+    "idletime_seconds": 14495,
+    "idletime": "4 hours 01 minutes 35 seconds",
     "keys": {
       "ssh": {
         "host_dsa_public": "AAAAB3NzaC1kc3MAAACBAJaZB+zELyBaLcUwUUQL/dpTM/E6oC1u4RJTcmO0O65f1YcRIqTkefNPTvdegWZyI5Eydj7r5h2/e0isI2jKiXL/iWzuRXA9l8n5mMHkAiO+/YFt+2d550IXV9uqd1L3xs1XMfen+YtQkgTFIG4WMlMeitmDKVPBvLQeJqWqIfg7AAAAFQDcnYQ4GtQHOnZqD6dhnHR/9h1j1QAAAIA3ojTHbyrf5N7axckffKqKS3V86qUQ8LzMWXt7bYJrTn9nuhl0Q6Z1lhxmWfz0cGHUMLPclzOYFvnyvB94tTisVZIs/WzB4D/j3FErwtBd+2lAwbixroYx9B2J/5nqh33H1CIkeLDtY7qj6wD8yD+QQYvxJ2OTOoMjldNFyWB90gAAAIAmX3NtFwgBQ+rK4HHEfLIDsuCHL4wzjIC0sTNBsXKUWgSKpRTh9s6xXR94H+sjy3hCv23h2zdG8/wrPqhQOK50wozl2m9zY5v6kxKz0G7CtBzqpELuRFQFsnosSlok61Gb7QmK7COsRmmvYePqFSIB5qzJoqWXiRkFjXI+P358sQ==",
@@ -5740,7 +5754,7 @@
     "machinename": "chef-solo-test",
     "fqdn": "chef-solo-test",
     "domain": null,
-    "ohai_time": 1606996414.435242,
+    "ohai_time": 1607006488.8072512,
     "shard_seed": 245237458,
     "cpu": {
       "0": {
@@ -5878,12 +5892,12 @@
         },
         "/dev/mapper/ubuntu--vg-ubuntu--lv": {
           "kb_size": "9219412",
-          "kb_used": "6699384",
-          "kb_available": "2031992",
+          "kb_used": "6698980",
+          "kb_available": "2032396",
           "percent_used": "77%",
           "total_inodes": "589824",
-          "inodes_used": "168229",
-          "inodes_available": "421595",
+          "inodes_used": "168208",
+          "inodes_available": "421616",
           "inodes_percent_used": "29%",
           "fs_type": "ext4",
           "mount_options": [
@@ -6000,8 +6014,8 @@
         },
         "chef-repo": {
           "kb_size": "249397244",
-          "kb_used": "156016180",
-          "kb_available": "93381064",
+          "kb_used": "156208648",
+          "kb_available": "93188596",
           "percent_used": "63%",
           "fs_type": "vboxsf",
           "mount_options": [
@@ -6388,12 +6402,12 @@
         },
         "/": {
           "kb_size": "9219412",
-          "kb_used": "6699384",
-          "kb_available": "2031992",
+          "kb_used": "6698980",
+          "kb_available": "2032396",
           "percent_used": "77%",
           "total_inodes": "589824",
-          "inodes_used": "168229",
-          "inodes_available": "421595",
+          "inodes_used": "168208",
+          "inodes_available": "421616",
           "inodes_percent_used": "29%",
           "fs_type": "ext4",
           "mount_options": [
@@ -6638,8 +6652,8 @@
         },
         "/media/sf_chef-repo": {
           "kb_size": "249397244",
-          "kb_used": "156016180",
-          "kb_available": "93381064",
+          "kb_used": "156208648",
+          "kb_available": "93188596",
           "percent_used": "63%",
           "fs_type": "vboxsf",
           "mount_options": [
@@ -7089,13 +7103,13 @@
         "/dev/mapper/ubuntu--vg-ubuntu--lv,/": {
           "device": "/dev/mapper/ubuntu--vg-ubuntu--lv",
           "kb_size": "9219412",
-          "kb_used": "6699384",
-          "kb_available": "2031992",
+          "kb_used": "6698980",
+          "kb_available": "2032396",
           "percent_used": "77%",
           "mount": "/",
           "total_inodes": "589824",
-          "inodes_used": "168229",
-          "inodes_available": "421595",
+          "inodes_used": "168208",
+          "inodes_available": "421616",
           "inodes_percent_used": "29%",
           "fs_type": "ext4",
           "mount_options": [
@@ -7285,8 +7299,8 @@
         "chef-repo,/media/sf_chef-repo": {
           "device": "chef-repo",
           "kb_size": "249397244",
-          "kb_used": "156016180",
-          "kb_available": "93381064",
+          "kb_used": "156208648",
+          "kb_available": "93188596",
           "percent_used": "63%",
           "mount": "/media/sf_chef-repo",
           "fs_type": "vboxsf",
