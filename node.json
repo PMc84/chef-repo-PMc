@@ -1,0 +1,7 @@
+{
+	"run_list": [ 
+		"recipe[ntp]",
+		"recipe[lamp_stack]",
+	 	"recipe[lamp_stack::apache]"	
+	]
+}
